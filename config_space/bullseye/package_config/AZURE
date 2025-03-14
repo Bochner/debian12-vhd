@@ -1,0 +1,9 @@
+PACKAGES install-norec
+cloud-init-22.4.2
+cloud-guest-utils
+hyperv-daemons
+waagent
+
+PACKAGES install-norec BUSTER+AZURE
+# Some waagent extensions still need python2.7, and break when it is not present
+python
