@@ -14,6 +14,7 @@ __pycache__/
 # Ignore problematic symlinks
 config_space/bookworm-backports
 config_space/bookworm/files/etc/fstab/ARM64
+config_space/bookworm/files/etc/fstab/RISCV64
 
 # Ignore similar paths that might be symlinks
 config_space/*/files/etc/fstab/*
