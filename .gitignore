@@ -1,2 +1,20 @@
-# Ignore problematic symlink
-config_space/bookworm-backports 
+__pycache__/
+/.pybuild/
+/.pytest_cache/
+/src/*.egg-info/
+/*-image.raw
+/*-image.vhd
+/image-*.info
+/image-*.raw
+/image-*.tar
+/image-*.build.json
+/image-*.build-fai.json
+/image-*.build.junit.xml
+
+# Ignore problematic symlinks
+config_space/bookworm-backports
+config_space/bookworm/files/etc/fstab/ARM64
+
+# Ignore similar paths that might be symlinks
+config_space/*/files/etc/fstab/*
+config_space/*/files/*/ARM64 
