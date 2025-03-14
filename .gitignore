@@ -15,7 +15,13 @@ __pycache__/
 config_space/bookworm-backports
 config_space/bookworm/files/etc/fstab/ARM64
 config_space/bookworm/files/etc/fstab/RISCV64
+config_space/bullseye-backports
+config_space/trixie
+config_space/bullseye/files/etc/fstab/ARM64
+config_space/sid/files/etc/fstab/ARM64
+config_space/sid/files/etc/fstab/RISCV64
 
 # Ignore similar paths that might be symlinks
 config_space/*/files/etc/fstab/*
-config_space/*/files/*/ARM64 
+config_space/*/files/*/ARM64
+config_space/*-backports 
